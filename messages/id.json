@@ -2,5 +2,9 @@
   "HomePage": {
     "title": "Hallo Dunia!",
     "about": "Pergi ke halaman tentang kami"
+  },
+  "AboutUs": {
+    "title": "Tentang Kami",
+    "description": "PT Indosweet Jaya Nusantara adalah perusahaan asli Indonesia yang berfokus pada tujuan "
   }
 }
