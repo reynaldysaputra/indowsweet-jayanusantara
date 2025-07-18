@@ -1,12 +1,12 @@
-'use client';
+"use client"
 
-import { useEffect } from 'react';
-import { initFirebase } from '@/lib/firebase.config';
+import { useEffect } from "react"
+import { initFirebase } from "@/lib/firebase.config"
 
 export function FirebaseInitializer() {
   useEffect(() => {
-    initFirebase();
-  }, []);
+    initFirebase()
+  }, [])
 
-  return null;
+  return null
 }
