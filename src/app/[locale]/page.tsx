@@ -8,6 +8,7 @@ export default function HomePage() {
     <div>
       <h1>{t('title')}</h1>
       <Link href="/about-us">{t('about')}</Link>
+      <p>Oke siap</p>
     </div>
   );
 }
