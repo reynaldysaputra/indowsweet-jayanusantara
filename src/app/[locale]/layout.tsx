@@ -4,6 +4,7 @@ import "./globals.css";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
+import { FirebaseInitializer } from '@/components/FirebaseInitializer';
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -38,6 +39,7 @@ export default async function LocaleLayout({
         className={`${manrope.className} antialiased`}
       >
         <NextIntlClientProvider>
+          <FirebaseInitializer />
           {children}
         </NextIntlClientProvider>
       </body>
