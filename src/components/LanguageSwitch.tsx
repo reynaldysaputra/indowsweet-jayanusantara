@@ -41,9 +41,9 @@ export default function LanguageSwitch() {
   return (
     <div className="relative bg-white shadow w-fit rounded overflow-hidden">
       {/* Trigger */}
-      <div className="flex items-center space-x-3 cursor-pointer p-2" onClick={handleToggle}>
+      <div className="flex items-center space-x-2 cursor-pointer p-1" onClick={handleToggle}>
         <Image src={currentFlag} alt={`${currentCode} Flag`} width={40} height={40} />
-        <h2 className="font-bold text-xl">{currentCode}</h2>
+        <h2 className="font-bold text-sm lg:text-lg">{currentCode}</h2>
         <MdOutlineKeyboardArrowUp
           size={24}
           className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
@@ -57,11 +57,11 @@ export default function LanguageSwitch() {
         }`}
       >
         <div
-          className="flex items-center space-x-3 cursor-pointer hover:bg-green-700 p-2 transition group"
+          className="flex items-center space-x-3 cursor-pointer hover:bg-primary p-2 transition group"
           onClick={() => handleChangeLanguage(altCode.toLowerCase())}
         >
           <Image src={altFlag} alt={`${altCode} Flag`} width={40} height={40} />
-          <h2 className="font-bold text-xl group-hover:text-white transition">{altCode}</h2>
+          <h2 className="font-bold text-sm lg:text-lg group-hover:text-white transition">{altCode}</h2>
         </div>
       </div>
     </div>

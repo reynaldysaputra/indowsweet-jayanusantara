@@ -6,6 +6,7 @@ import { notFound } from "next/navigation"
 import { routing } from "../../i18n/routing"
 import { FirebaseInitializer } from "@/components/FirebaseInitializer"
 import LanguageSwitch from "@/components/LanguageSwitch"
+import Navbar from "@/components/Navbar"
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
       <body className={`${manrope.className} w-full h-full antialiased`}>
         <NextIntlClientProvider>
           <FirebaseInitializer />
+          {/* <Navbar /> */}
           {children}
           <div className="bottom-10 right-10 fixed">
             <LanguageSwitch />
