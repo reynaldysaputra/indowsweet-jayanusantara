@@ -7,8 +7,9 @@ export default function HomePage() {
   const t = useTranslations("HomePage")
 
   return (
-    <div>
-      <main className="w-full h-[90vh] bg-primary flex items-center justify-center overflow-hidden -z-0 relative">
+    <div className="relative h-[200vh]">
+      <main className="w-full h-[93vh] bg-primary flex items-center justify-center overflow-hidden relative z-0">
+
         <div className="w-11/12 flex justify-between items-center space-x-10 z-30">
           <div>
             <h3 className="text-2xl text-accent">{t("text1")}</h3>

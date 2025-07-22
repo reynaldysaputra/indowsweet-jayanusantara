@@ -40,7 +40,7 @@ export default async function LocaleLayout({
       <body className={`${manrope.className} w-full h-full antialiased`}>
         <NextIntlClientProvider>
           <FirebaseInitializer />
-          {/* <Navbar /> */}
+          <Navbar />
           {children}
           <div className="bottom-10 right-10 fixed">
             <LanguageSwitch />
