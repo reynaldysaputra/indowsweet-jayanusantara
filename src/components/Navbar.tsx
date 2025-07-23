@@ -23,7 +23,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const threshold = window.innerWidth < 768 ? 250 : 400
+      const threshold = window.innerWidth < 768 ? 250 : 300
       setIsScrolled(window.scrollY > threshold)
     }
 

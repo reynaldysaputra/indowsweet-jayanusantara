@@ -2,12 +2,15 @@ import { useTranslations } from "next-intl"
 import Image from "next/image"
 import MainProduct from '../../assets/main-product.png'
 import BgPattern from '../../assets/bg-pattern.png'
+import JawaCetak from '../../assets/products/jawa_cetak.png'
+import ArenSemut from '../../assets/products/aren_semut.png'
+import JawaSirup from '../../assets/products/jawa_sirup.png'
 
 export default function HomePage() {
   const t = useTranslations("HomePage")
 
   return (
-    <div className="relative h-[200vh]">
+    <div className="relative">
       <main className="w-full h-[93vh] bg-primary flex items-center justify-center overflow-hidden relative z-0">
 
         <div className="w-11/12 flex justify-between items-center space-x-10 z-30">
@@ -24,6 +27,45 @@ export default function HomePage() {
         <Image src={BgPattern} alt="BgPattern" className="w-[300vw max-w-none h-auto absolute lg:w-12/12  z-10 opacity-5 lg:-top-30 lg:-right-70 top-0 -right-150 md:-right-100 md:top-40"
         />
       </main>
+
+
+      <div className="w-full bg-background p-10 md:p-16">
+        <h3 className="text-3xl font-extrabold mb-6 lg:mb-10">What We Offer</h3>
+
+        {/* Products */}
+        <div className="block lg:flex justify-between md:space-x-3">
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between mb-0">
+            <div className="space-y-5">
+              <h2 className="font-extrabold text-xl">{t("text5")}</h2>
+              <p className="mt-5 tracking-tight">{t("text6")}</p>
+              <Image src={JawaCetak} alt="Gula Aren Cetak" width={200} height={200} className="mx-auto" />
+            </div>
+            <button className="w-full  p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded mt-10 md:mt-7">
+              {t("text7")}
+            </button>
+          </div>
+
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between mb-0 mt-10 md:mt-0">
+            <div className="space-y-5">
+              <h2 className="font-extrabold text-xl">{t("text8")}</h2>
+              <p className="mt-5 tracking-tight">{t("text9")}</p>
+              <Image src={ArenSemut} alt="Aren Semut" width={200} height={200} className="mx-auto" />
+            </div>
+            <button className="w-full  p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded mt-10 md:mt-7">
+              {t("text7")}
+            </button>
+          </div>
+
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between mt-10 md:mt-0">
+            <div className="space-y-5">
+              <h2 className="font-extrabold text-xl">{t("text10")}</h2>
+              <p className="mt-5 tracking-tight">{t("text11")}</p>
+              <Image src={JawaSirup} alt="Jawa Sirup" width={200} height={200} className="mx-auto" />
+            </div>
+            <button className="w-full  p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded mt-10 md:mt-7">{t("text7")}</button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
