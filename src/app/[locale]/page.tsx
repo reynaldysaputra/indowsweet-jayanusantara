@@ -1,10 +1,16 @@
 import { useTranslations } from "next-intl"
 import Image from "next/image"
-import MainProduct from '../../assets/main-product.png'
-import BgPattern from '../../assets/bg-pattern.png'
-import JawaCetak from '../../assets/products/jawa_cetak.png'
-import ArenSemut from '../../assets/products/aren_semut.png'
-import JawaSirup from '../../assets/products/jawa_sirup.png'
+import MainProduct from '../../../public/assets/main-product.png'
+import BgPattern from '../../../public/assets/bg-pattern.png'
+import JawaCetak from '../../../public/assets/products/jawa_cetak.png'
+import ArenSemut from '../../../public/assets/products/aren_semut.png'
+import JawaSirup from '../../../public/assets/products/jawa_sirup.png'
+
+// export const dynamic = 'force-static';
+
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'id' }];
+}
 
 export default function HomePage() {
   const t = useTranslations("HomePage")

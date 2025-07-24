@@ -5,8 +5,8 @@ import Image from "next/image"
 import { useState, useEffect } from "react"
 import { MdOutlineKeyboardArrowUp } from "react-icons/md"
 
-import EnglishFlag from "../assets/english-flag.png"
-import IndonesiaFlag from "../assets/indonesia-flag.png"
+import EnglishFlag from "../../public/assets/english-flag.png"
+import IndonesiaFlag from "../../public/assets/indonesia-flag.png"
 
 export default function LanguageSwitch() {
   const router = useRouter()
@@ -52,9 +52,8 @@ export default function LanguageSwitch() {
 
       {/* Dropdown transition */}
       <div
-        className={`transition-all duration-300 ease-in-out origin-top ${
-          isOpen ? "scale-100 opacity-100 max-h-20" : "scale-95 opacity-0 max-h-0"
-        }`}
+        className={`transition-all duration-300 ease-in-out origin-top ${isOpen ? "scale-100 opacity-100 max-h-20" : "scale-95 opacity-0 max-h-0"
+          }`}
       >
         <div
           className="flex items-center space-x-3 cursor-pointer hover:bg-primary p-2 transition group"
