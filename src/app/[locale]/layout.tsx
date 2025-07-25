@@ -7,6 +7,7 @@ import { routing } from "../../i18n/routing"
 import { FirebaseInitializer } from "@/components/FirebaseInitializer"
 import LanguageSwitch from "@/components/LanguageSwitch"
 import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -42,6 +43,7 @@ export default async function LocaleLayout({
           <FirebaseInitializer />
           <Navbar />
           {children}
+          <Footer />
           <div className="bottom-10 right-10 fixed">
             <LanguageSwitch />
           </div>
