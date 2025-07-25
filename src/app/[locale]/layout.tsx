@@ -39,7 +39,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className={`${manrope.className} w-full h-full antialiased`}>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale}>
           <FirebaseInitializer />
           <Navbar />
           {children}

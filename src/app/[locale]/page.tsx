@@ -88,7 +88,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="font-bold text-xl">{t("text12")}</h1>
-                <p>{t("text13")}</p>
+                <p className="text-sm mt-2 lg:text-base">{t("text13")}</p>
               </div>
             </div>
             <div className="w-full lg:w-6/12 flex space-x-8 items-center px-5 py-2">
@@ -97,7 +97,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="font-bold text-xl">{t("text14")}</h1>
-                <p>{t("text15")}</p>
+                <p className="text-sm mt-2 lg:text-base">{t("text15")}</p>
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="font-bold text-xl">{t("text16")}</h1>
-                <p>{t("text17")}</p>
+                <p className="text-sm mt-2 lg:text-base">{t("text17")}</p>
               </div>
             </div>
             <div className="w-full lg:w-6/12 flex space-x-8 items-center px-5 py-2">
@@ -117,7 +117,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="font-bold text-xl">{t("text18")}</h1>
-                <p>{t("text19")}</p>
+                <p className="text-sm mt-2 lg:text-base">{t("text19")}</p>
               </div>
             </div>
           </div>
