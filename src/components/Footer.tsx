@@ -1,13 +1,14 @@
+"use client";
+
 import Image from 'next/image'
 import React from 'react'
 import Logo from '../../public/logo-light.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { useTranslations } from 'next-intl';
 
 function Footer() {
-  const t = useTranslations("Footer")
+  const t = (abc: string) => abc
 
   return (
     <footer className='mt-20 w-full bg-primary flex flex-col lg:flex-row space-x-10 justify-between px-14 py-20 space-y-8 lg:space-y-0'>

@@ -6,12 +6,11 @@ import Link from "next/link"
 import LogoDark from "../../public/logo-light.png"
 import LogoLight from "../../public/logo.png"
 import { HiMenu, HiX } from "react-icons/hi"
-import { useTranslations } from "next-intl"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
-  const text = useTranslations("Navigation")
+  const text = (abc: string) => abc
 
   const navItems = [
     { label: text("text1"), href: "/" },

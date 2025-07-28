@@ -1,23 +1,18 @@
-import { useTranslations } from "next-intl"
+"use client";
+
 import Image from "next/image"
-import MainProduct from '../../../public/assets/main-product.png'
-import BgPattern from '../../../public/assets/bg-pattern.png'
-import JawaCetak from '../../../public/assets/products/jawa_cetak.png'
-import ArenSemut from '../../../public/assets/products/aren_semut.png'
-import JawaSirup from '../../../public/assets/products/jawa_sirup.png'
+import MainProduct from '../../public/assets/main-product.png'
+import BgPattern from '../../public/assets/bg-pattern.png'
+import JawaCetak from '../../public/assets/products/jawa_cetak.png'
+import ArenSemut from '../../public/assets/products/aren_semut.png'
+import JawaSirup from '../../public/assets/products/jawa_sirup.png'
 import { ImOffice } from "react-icons/im";
 import { SiCoffeescript } from "react-icons/si";
 import { GiTreeBranch } from "react-icons/gi";
 import { FaUserGroup } from "react-icons/fa6";
 
-export const dynamic = 'force-static';
-
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { lcale: 'id' }];
-}
-
 export default function HomePage() {
-  const t = useTranslations("HomePage")
+  const t = (abc: string) => abc;
 
   return (
     <div className="relative">
