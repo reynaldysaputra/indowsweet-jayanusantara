@@ -17,10 +17,6 @@ export default function HomePage() {
           <div>
             <h3 className="text-2xl text-accent">{t("HomePage.text1")}</h3>
             <p className="text-4xl font-extrabold text-highlight mb-6">{t("HomePage.text2")}</p>
-            <div className="flex justify-between w-fit space-x-4">
-              <button className="p-3 border border-highlight text-highlight cursor-pointer font-bold rounded-lg transition duration-200 hover:bg-highlight hover:text-primary">{t("HomePage.text3")}</button>
-              <button className="p-3 border border-highlight text-highlight cursor-pointer font-bold rounded-lg transition duration-200 hover:bg-highlight hover:text-primary">{t("HomePage.text4")}</button>
-            </div>
           </div>
           <img src={"/assets/main-product.png"} alt="IndoSweet" className="w-6/12 mt-56 hidden lg:block" />
         </div>
@@ -33,40 +29,56 @@ export default function HomePage() {
         <h3 className="text-3xl font-extrabold mb-6 lg:mb-10">{t("HomePage.text20")}</h3>
 
         {/* Products */}
-        <div className="block lg:flex justify-between md:space-x-3">
-          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between mb-0">
+        <div className="flex flex-wrap justify-center items-stretch gap-4">
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
               <h2 className="font-extrabold text-xl">{t("HomePage.text5")}</h2>
-              <p className="mt-5 tracking-tight">{t("HomePage.text6")}</p>
-              <img src={"/assets/products/jawa_cetak.png"} alt="Gula Aren Cetak" width={200} height={200} className="mx-auto" />
+              <img src={"/assets/products/jawa_cetak.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
             </div>
-            <button className="w-full  p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded mt-10 md:mt-7">
-              {t("HomePage.text7")}
-            </button>
           </div>
 
-          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between mb-0 mt-10 md:mt-0">
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
               <h2 className="font-extrabold text-xl">{t("HomePage.text8")}</h2>
-              <p className="mt-5 tracking-tight">{t("HomePage.text9")}</p>
-              <img src={"/assets/products/aren_semut.png"} alt="Aren Semut" width={200} height={200} className="mx-auto" />
+              <img src={"/assets/products/aren_semut.png"} alt="Aren Semut" className="w-44 h-44 mx-auto" />
             </div>
-            <button className="w-full  p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded mt-10 md:mt-7">
-              {t("HomePage.text7")}
-            </button>
           </div>
 
-          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between mt-10 md:mt-0">
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
+            <div className="space-y-5">
+              <h2 className="font-extrabold text-xl">{t("HomePage.text11")}</h2>
+              <img src={"/assets/products/aren_sirup.png"} alt="Aren Sirup" className="w-44 h-44 mx-auto" />
+            </div>
+          </div>
+
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
+            <div className="space-y-5">
+              <h2 className="font-extrabold text-xl">{t("HomePage.text6")}</h2>
+              <img src={"/assets/products/aren_cetak.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
+            </div>
+          </div>
+
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
+            <div className="space-y-5">
+              <h2 className="font-extrabold text-xl">{t("HomePage.text9")}</h2>
+              <img src={"/assets/products/jawa_semut.png"} alt="Jawa Semut" className="w-44 h-44 mx-auto" />
+            </div>
+          </div>
+
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
               <h2 className="font-extrabold text-xl">{t("HomePage.text10")}</h2>
-              <p className="mt-5 tracking-tight">{t("HomePage.text11")}</p>
-              <img src={"/assets/products/aren_semut.png"} alt="Jawa Sirup" width={200} height={200} className="mx-auto" />
+              <img src={"/assets/products/jawa_sirup.png"} alt="Jawa Sirup" className="w-44 h-44 mx-auto" />
             </div>
-            <button className="w-full  p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded mt-10 md:mt-7">{t("HomePage.text7")}</button>
           </div>
-
         </div>
-        <h1 className="mt-8 mx-auto w-fit text-accent font-bold cursor-pointer hover:text-highlight transition">{t("HomePage.text21")} {">"}</h1>
+
+
+        <div className="w-full flex justify-center">
+          <button className="w-fit mx-auto mt-8 p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded md:mt-7">
+            {t("HomePage.text7")}
+          </button>
+        </div>
 
         {/* Targets */}
         <div className="w-full mt-32">
