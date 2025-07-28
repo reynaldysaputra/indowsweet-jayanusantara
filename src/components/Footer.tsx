@@ -1,20 +1,20 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
-import Image from 'next/image'
+import { useTranslation } from '@/hooks/useTranslations';
 import React from 'react'
-import Logo from '../../public/logo-light.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
-  const t = (abc: string) => abc
+  const { t } = useTranslation()
 
   return (
     <footer className='mt-20 w-full bg-primary flex flex-col lg:flex-row space-x-10 justify-between px-14 py-20 space-y-8 lg:space-y-0'>
-      <Image src={Logo} width={100} height={100} alt='IndoSweet' />
+      <img src={"/logo-light.png"} width={100} height={100} alt='IndoSweet' />
       <div className='w-full lg:w-6/12'>
-        <p className='text-highlight font-bold'>{t("text1")}</p>
+        <p className='text-highlight font-bold'>{t("Footer.text1")}</p>
       </div>
       <div className='w-full lg:w-6/12 flex flex-col space-y-5 lg:justify-center lg:items-center mt-6 lg:mt-0'>
         <div className='flex space-x-8'>

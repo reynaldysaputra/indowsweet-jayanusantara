@@ -3,21 +3,20 @@
 import React, { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import LogoDark from "../../public/logo-light.png"
-import LogoLight from "../../public/logo.png"
 import { HiMenu, HiX } from "react-icons/hi"
+import { useTranslation } from "@/hooks/useTranslations"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
-  const text = (abc: string) => abc
+  const { t: text } = useTranslation()
 
   const navItems = [
-    { label: text("text1"), href: "/" },
-    { label: text("text2"), href: "/" },
-    { label: text("text3"), href: "/" },
-    { label: text("text4"), href: "/" },
-    { label: text("text5"), href: "/" },
+    { label: text("Navigation.text1"), href: "/" },
+    { label: text("Navigation.text2"), href: "/" },
+    { label: text("Navigation.text3"), href: "/" },
+    { label: text("Navigation.text4"), href: "/" },
+    { label: text("Navigation.text5"), href: "/" },
   ]
 
   useEffect(() => {
@@ -36,7 +35,7 @@ export default function Navbar() {
         }`}
     >
       <div className="flex justify-between items-center px-6 md:px-16 py-4">
-        <Image src={isScrolled ? LogoLight : LogoDark} alt="Logo" width={50} height={50} className={`transition duration-300 ease-in-out transform ${isScrolled ? 'scale-100 opacity-100' : ' scale-95 opacity-90'
+        <Image src={isScrolled ? "/logo.png" : "/logo-light.png"} alt="Logo" width={50} height={50} className={`transition duration-300 ease-in-out transform ${isScrolled ? 'scale-100 opacity-100' : ' scale-95 opacity-90'
           }`} />
 
         {/* Desktop */}
