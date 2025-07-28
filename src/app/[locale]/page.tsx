@@ -10,7 +10,7 @@ import { SiCoffeescript } from "react-icons/si";
 import { GiTreeBranch } from "react-icons/gi";
 import { FaUserGroup } from "react-icons/fa6";
 
-// export const dynamic = 'force-static';
+export const dynamic = 'force-static';
 
 export function generateStaticParams() {
   return [{ locale: 'en' }, { lcale: 'id' }];
