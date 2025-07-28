@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import React, { useState, useEffect } from "react"
@@ -35,7 +36,7 @@ export default function Navbar() {
         }`}
     >
       <div className="flex justify-between items-center px-6 md:px-16 py-4">
-        <Image src={isScrolled ? "/logo.png" : "/logo-light.png"} alt="Logo" width={50} height={50} className={`transition duration-300 ease-in-out transform ${isScrolled ? 'scale-100 opacity-100' : ' scale-95 opacity-90'
+        <img src={isScrolled ? "/logo.png" : "/logo-light.png"} alt="Logo" className={`w-12 transition duration-300 ease-in-out transform ${isScrolled ? 'scale-100 opacity-100' : ' scale-95 opacity-90'
           }`} />
 
         {/* Desktop */}
