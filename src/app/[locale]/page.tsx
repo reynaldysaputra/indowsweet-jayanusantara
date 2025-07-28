@@ -13,7 +13,7 @@ import { FaUserGroup } from "react-icons/fa6";
 // export const dynamic = 'force-static';
 
 export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'id' }];
+  return [{ locale: 'en' }, { lcale: 'id' }];
 }
 
 export default function HomePage() {
