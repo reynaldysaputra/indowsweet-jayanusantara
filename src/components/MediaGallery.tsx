@@ -58,13 +58,13 @@ export default function GallerySlider() {
       {/* Arrows */}
       <button
         onClick={slidePrev}
-        className="absolute top-1/2 left-0 -translate-y-1/2 z-20 bg-primary bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition"
+        className="absolute top-1/2 left-0 -translate-y-1/2 z-20 bg-primary bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition cursor-pointer"
       >
         <FaChevronLeft size={20} />
       </button>
       <button
         onClick={slideNext}
-        className="absolute top-1/2 right-0 -translate-y-1/2 z-20 bg-primary bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition"
+        className="absolute top-1/2 right-0 -translate-y-1/2 z-20 bg-primary bg-opacity-40 text-white p-2 rounded-full hover:bg-opacity-60 transition cursor-pointer"
       >
         <FaChevronRight size={20} />
       </button>
@@ -90,7 +90,7 @@ export default function GallerySlider() {
                   className="w-full h-full object-cover"
                   muted
                 />
-                <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 flex items-center justify-center cursor-pointer">
                   <FaPlayCircle className="text-white text-5xl opacity-80 hover:opacity-100 transition" />
                 </div>
               </div>
