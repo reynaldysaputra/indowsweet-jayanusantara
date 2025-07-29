@@ -32,8 +32,8 @@ export default function HomePage() {
         <div className="flex flex-wrap justify-center items-stretch gap-4">
           <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
-              <h2 className="font-extrabold text-xl">{t("HomePage.text5")}</h2>
-              <img src={"/assets/products/jawa_cetak.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
+              <h2 className="font-extrabold text-xl">{t("HomePage.text6")}</h2>
+              <img src={"/assets/products/aren_cetak.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
             </div>
           </div>
 
@@ -53,8 +53,8 @@ export default function HomePage() {
 
           <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
-              <h2 className="font-extrabold text-xl">{t("HomePage.text6")}</h2>
-              <img src={"/assets/products/aren_cetak.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
+              <h2 className="font-extrabold text-xl">{t("HomePage.text5")}</h2>
+              <img src={"/assets/products/jawa_cetak.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
             </div>
           </div>
 

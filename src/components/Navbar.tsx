@@ -14,10 +14,10 @@ export default function Navbar() {
 
   const navItems = [
     { label: text("Navigation.text1"), href: "/" },
-    { label: text("Navigation.text2"), href: "/" },
-    { label: text("Navigation.text3"), href: "/" },
-    { label: text("Navigation.text4"), href: "/" },
-    { label: text("Navigation.text5"), href: "/" },
+    { label: text("Navigation.text2"), href: "/about-us" },
+    { label: text("Navigation.text3"), href: "/our-products" },
+    { label: text("Navigation.text4"), href: "/our-comitment" },
+    { label: text("Navigation.text5"), href: "/contact-us" },
   ]
 
   useEffect(() => {

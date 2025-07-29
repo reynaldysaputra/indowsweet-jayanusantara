@@ -27,8 +27,10 @@
     "text1": "PT Indosweet Jaya Nusantara adalah perusahaan asli Indonesia yang berfokus pada produksi gula aren dan gula kelapa premium. Dengan sistem produksi yang sepenuhnya kami kelola sendiri, kami menjamin setiap batch hadir dengan kualitas, keamanan, dan cita rasa yang konsisten—diproses sepenuh hati dari 100% nira palma murni pilihan."
   },
   "AboutUs": {
-    "title": "Tentang Kami",
-    "description": "PT Indosweet Jaya Nusantara adalah perusahaan asli Indonesia yang berfokus pada tujuan "
+    "text1": "Tentang Kami",
+    "text2": "Lahan Perkebunan Bersama",
+    "text3": "Kapasitas Produksi per Bulan",
+    "text4": "Kapasitas Produksi per Tahun"
   },
   "Navigation": {
     "text1": "Beranda",

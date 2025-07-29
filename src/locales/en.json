@@ -27,8 +27,10 @@
     "text1": "PT Indosweet Jaya Nusantara is a proudly Indonesian company focused on producing premium palm sugar and coconut sugar. Through our fully in-house production system, we ensure every batch meets consistent quality, safety, and flavor crafted with care and backed by strict standards by using 100% pure palm nectar."
   },
   "AboutUs": {
-    "title": "About Us",
-    "description": "PT Indosweet Jaya Nusantara is an Indonesian company that focuses on the goal of"
+    "text1": "About Us",
+    "text2": "Joint Plantation Land",
+    "text3": "Production Capacity per Month",
+    "text4": "Production Capacity per Year"
   },
   "Navigation": {
     "text1": "Home",
