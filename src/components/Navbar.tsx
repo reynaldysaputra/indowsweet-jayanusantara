@@ -2,15 +2,16 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
-import Image from "next/image"
 import Link from "next/link"
 import { HiMenu, HiX } from "react-icons/hi"
 import { useTranslation } from "@/hooks/useTranslations"
+import { usePathname } from "next/navigation"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const { t: text } = useTranslation()
+  const pathname = usePathname()
 
   const navItems = [
     { label: text("Navigation.text1"), href: "/" },
@@ -23,12 +24,17 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const threshold = window.innerWidth < 768 ? 250 : 300
-      setIsScrolled(window.scrollY > threshold)
+      const isDynamicOurProductPage = pathname.startsWith("/our-products/") && pathname !== "/our-products"
+      const scrolledEnough = window.scrollY > threshold
+
+      setIsScrolled(scrolledEnough || isDynamicOurProductPage)
     }
+
+    handleScroll() // ← supaya langsung aktif saat halaman dibuka
 
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+  }, [pathname])
 
   return (
     <nav

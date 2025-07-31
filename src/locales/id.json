@@ -50,5 +50,84 @@
     "text3": "Produk Kami",
     "text4": "Komitmen Kami",
     "text5": "Hubungi Kami"
+  },
+  "OurProducts": {
+    "text1": "Produk Kami",
+    "text2": "Kami Menawarkan",
+    "text3": "Artisanal, sederhana, dan kaya rasa — Gowla Hanau adalah gula aren dalam bentuk yang paling berani. Dibuat tangan menjadi balok-balok padat berasap dengan rasa manis alami, sempurna untuk diparut, dilelehkan, atau diserut menjadi apa saja, mulai dari kari hingga manisan. Bangkitkan kembali jiwa dapur kuno.",
+    "text4": "Keemasan, harum, dan kekayaan rasa yang tak tertahankan — Gowla Hanau Semut bukan sekadar pemanis, melainkan kisah kesempurnaan alam. Terbuat dari 100% nektar aren murni, gula aren granular kami menambahkan sentuhan karamel yang pekat pada kopi, hidangan penutup, dan saus Anda. Tanpa aditif, tanpa kompromi — hanya kenikmatan autentik di setiap butirnya.",
+    "text5": "Kaya bagai molase, lembut bagai madu — Sirup Gowla Hanau menghadirkan sentuhan manis tropis yang mewah di setiap hidangan. Terbuat dari 100% nira aren pekat, sirup ini sempurna untuk panekuk, koktail, glasir, atau sekadar dinikmati langsung dari toplesnya. Dibuat secara berkelanjutan dengan cinta dari Indonesia.",
+    "text6": "Tradisional, padat, dan harum — Gowla Java Block adalah gula kelapa yang dibentuk menjadi balok-balok sederhana dengan rasa manis yang kuat dan aroma asap alami. Ideal untuk dilelehkan, diparut, atau dicampur ke dalam resep manis maupun gurih.",
+    "text7": "Beraroma bunga panggang, beraroma bunga, dan berwarna keemasan alami — Gowla Java Semut adalah gula kelapa granular yang terbuat dari 100% sari bunga kelapa murni. Diproses secara lembut untuk mempertahankan mineral alami dan indeks glikemik rendah, gula ini menambahkan sentuhan karamel lembut pada kopi, kue, dan saus gurih.",
+    "text8": "Sirup Gowla Java yang lembut dan kaya rasa manis terbuat dari nira bunga kelapa yang dimasak perlahan — menghasilkan sirup kental berwarna keemasan dengan aroma lembut dan mineral alami. Sempurna untuk panekuk, minuman, yogurt, atau bahkan saus salad."
+  },
+  "OurProductsDetails": {
+    "arenga-sugar-block": {
+      "title": "Gowla Hanau – Gula Aren Cetak",
+      "description": "Otentik dan berani, Gowla Hanau menghubungkan kembali Anda dengan tradisi. Dituang secara manual menjadi balok-balok padat dan beraroma tanah, inilah gula yang dipercaya nenek Anda — manis alami dan beraroma kuat.",
+      "list": [
+        "Berat bersih: 100 gram/ pcs",
+        "Kemasan: 10 Kg per karton",
+        "Masa simpan: 12 bulan (dengan penyimpanan yang tepat)",
+        "Bahan: 100% nira aren murni",
+        "Ukuran dan kemasan kustom tersedia sesuai permintaan"
+      ]
+    },
+    "arenga-sugar-granulated": {
+      "title": "Gowla Hanau Semut – Gula Aren Semut",
+      "description": "Aromatik, berwarna keemasan, dan sangat kaya rasa — Gowla Hanau Semut mengubah hidangan sehari-hari menjadi luar biasa. Gula aren granular ini sempurna untuk minuman, kue, dan saus — kemewahan alami dalam setiap butirnya.",
+      "list": [
+        "Berat bersih: 20 Kg (tersedia juga dalam kemasan kecil hingga 500 gr)",
+        "Kemasan: 20 Kg per zak atau sesuai permintaan",
+        "Masa simpan: 12 bulan (dengan penyimpanan yang tepat)",
+        "Bahan: 100% nira aren murni",
+        "Ukuran dan kemasan kustom tersedia sesuai permintaan"
+      ]
+    },
+    "arenga-sugar-syrup": {
+      "title": "Gowla Hanau Sirup – Gula Aren Cair",
+      "description": "Lembut, aromatik, dan kaya rasa — Sirup Gowla Hanau mengalir dengan keaslian rasa nira aren. Wajib untuk panekuk, makanan penutup, minuman, atau glasir. Sekali coba, akan selalu ada di dapur Anda.",
+      "list": [
+        "Berat bersih: 250ml, 500 ml, 1L",
+        "Kemasan: hingga 12L/karton",
+        "Masa simpan: 12 bulan (dengan penyimpanan yang tepat)",
+        "Bahan: 100% nira aren murni",
+        "Ukuran dan kemasan kustom tersedia sesuai permintaan"
+      ]
+    },
+    "coconut-sugar-block": {
+      "title": "Gowla Java – Gula Kelapa Cetak",
+      "description": "Dibentuk tangan dan dikeringkan secara alami, gula cetak ini mempertahankan esensi kuat dari nektar kelapa — murni, tidak dimurnikan, dan siap untuk resep sehari-hari maupun tradisional.",
+      "list": [
+        "Berat bersih: 100 gram/ pcs",
+        "Kemasan: 10 Kg per karton",
+        "Masa simpan: 12 bulan (dengan penyimpanan yang tepat)",
+        "Bahan: 100% nira kelapa murni",
+        "Ukuran dan kemasan kustom tersedia sesuai permintaan"
+      ]
+    },
+    "coconut-sugar-granulated": {
+      "title": "Gowla Java Semut – Gula Kelapa Semut",
+      "description": "Gula kelapa granular ini adalah pemanis alami yang lebih sehat untuk dapur modern. Tidak dimurnikan, ramah vegan, dan penuh karakter tropis.",
+      "list": [
+        "Berat bersih: 20 Kg (tersedia juga dalam kemasan kecil hingga 500 gr)",
+        "Kemasan: 20 Kg per zak atau sesuai permintaan",
+        "Masa simpan: 12 bulan (dengan penyimpanan yang tepat)",
+        "Bahan: 100% nira kelapa murni",
+        "Ukuran dan kemasan kustom tersedia sesuai permintaan"
+      ]
+    },
+    "coconut-sugar-syrup": {
+      "title": "Gowla Java Sirup – Gula Kelapa Cair",
+      "description": "Sirup nektar kelapa ini adalah alternatif sehat dan tropis dari maple atau madu. Tidak dimurnikan, kaya antioksidan, dan dibuat untuk dapur modern.",
+      "list": [
+        "Berat bersih: 250ml, 500 ml, 1L",
+        "Kemasan: hingga 12L/karton",
+        "Masa simpan: 12 bulan (dengan penyimpanan yang tepat)",
+        "Bahan: 100% nira kelapa murni",
+        "Ukuran dan kemasan kustom tersedia sesuai permintaan"
+      ]
+    }
   }
+
 }

@@ -50,5 +50,83 @@
     "text3": "Our Products",
     "text4": "Our Comitment",
     "text5": "Contact Us"
+  },
+  "OurProducts": {
+    "text1": "Our Products",
+    "text2": "We Offer",
+    "text3": "Artisanal, rustic, and powerfully flavorful — Gowla Hanau is arenga sugar in its boldest form. Handcrafted into dense, smoky blocks of earthy sweetness, perfect for grating, melting, or shaving into anything from curries to confections. Bring back the soul of ancient kitchens.",
+    "text4": "Golden, fragrant, and irresistibly rich — Gowla Hanau Semut is not just a sweetener, it’s a story of nature’s perfection. Made from 100% pure arenga nectar, our granulated palm sugar adds deep caramel tones to your coffee, desserts, and sauces. No additives, no compromise — just authentic indulgence in every grain.",
+    "text5": "Rich like molasses, smooth like honey — Gowla Hanau Sirup delivers a luxurious drizzle of tropical sweetness to every plate. Made from 100% concentrated arenga sap, it’s perfect for pancakes, cocktails, glazes, or just a spoonful straight from the jar. Sustainably crafted with love from Indonesia.",
+    "text6": "Traditional, dense, and fragrant — Gowla Java Block is coconut sugar molded into rustic blocks with deep sweetness and a naturally smoky note. Ideal for melting, grating, or mixing into both sweet and savory recipes.",
+    "text7": "Toasty, floral, and naturally golden — Gowla Java Semut is a granulated coconut sugar made from 100% pure coconut blossom nectar. Gently processed to preserve its natural minerals and low glycemic index, this sugar adds soft caramel notes to coffee, baking, and savory sauces.",
+    "text8": "Smooth and richly sweet, Gowla Java Sirup is made from slow-cooked coconut flower sap — forming a thick, golden syrup with mellow notes and natural minerals. Perfect for pancakes, drinks, yogurt, or even salad dressings."
+  },
+  "OurProductsDetails": {
+    "arenga-sugar-block": {
+      "title": "Gowla Hanau – Arenga Sugar Block",
+      "description": "Authentic and bold, Gowla Hanau reconnects you with tradition. Hand-poured into rich, earthy blocks, this is the sugar your grandmother would trust — naturally sweet and deeply aromatic.",
+      "list": [
+        "Net weight: 100 gram/ pcs",
+        "Packaging: 10 Kg per carton",
+        "Shelf life: 12 months (with proper storage)",
+        "Ingredients: 100% pure palm sap",
+        "Custom size and packaging available upon request"
+      ]
+    },
+    "arenga-sugar-granulated": {
+      "title": "Gowla Hanau Semut – Arenga Sugar Granulated",
+      "description": "Deep, aromatic, and beautifully golden — Gowla Hanau Semut turns everyday dishes into something extraordinary. This granulated arenga sugar (a rare type of palm sugar) is perfect for drinks, baking, and sauces — your daily dose of natural luxury.",
+      "list": [
+        "Net weight: 20 Kg (also available on small packaging up to 500 gr)",
+        "Packaging: 20 Kg per zak or by request",
+        "Shelf life: 12 months (with proper storage)",
+        "Ingredients: 100% pure palm sap",
+        "Custom size and packaging available upon request"
+      ]
+    },
+    "arenga-sugar-syrup": {
+      "title": "Gowla Hanau Sirup – Arenga Sugar Syrup ",
+      "description": "Velvety, aromatic, and deeply flavorful — Gowla Hanau Sirup flows with the natural richness of arenga. A must-have for pancakes, desserts, drinks, or glazes. Taste it once, and it stays in your kitchen forever.",
+      "list": [
+        "Net weight: 250ml, 500 ml, 1L",
+        "Packaging: up to 12L/carton",
+        "Shelf life: 12 months (with proper storage)",
+        "Ingredients: 100% pure palm sap",
+        "Custom size and packaging available upon request"
+      ]
+    },
+    "coconut-sugar-block": {
+      "title": "Gowla Java – Coconut Sugar Block",
+      "description": "Hand-shaped and naturally dried, this sugar block retains the bold essence of coconut nectar — pure, unrefined, and ready for everyday or heritage recipes.",
+      "list": [
+        "Net weight: 100 gram/ pcs",
+        "Packaging: 10 Kg per carton",
+        "Shelf life: 12 months (with proper storage)",
+        "Ingredients: 100% pure coconut sap",
+        "Custom size and packaging available upon request"
+      ]
+    },
+    "coconut-sugar-granulated": {
+      "title": "Gowla Java Semut – Coconut Sugar Granulated",
+      "description": "This granulated coconut sugar is a healthier, natural sweetener made for modern kitchens. Unrefined, vegan-friendly, and full of tropical character.",
+      "list": [
+        "Net weight: 20 Kg (also available on small packaging up to 500 gr",
+        "Packaging: 20 Kg per zak or by request",
+        "Shelf life: 12 months (with proper storage)",
+        "Ingredients: 100% pure coconut sap",
+        "Custom size and packaging available upon request"
+      ]
+    },
+    "coconut-sugar-syrup": {
+      "title": "Gowla Java Sirup – Coconut Sugar Syrup",
+      "description": "This natural coconut nectar syrup is a healthy, tropical alternative to maple or honey. Unrefined, antioxidant-rich, and crafted for modern kitchens.",
+      "list": [
+        "Net weight: 250ml, 500 ml, 1L",
+        "Packaging: up to 12L/carton",
+        "Shelf life: 12 months (with proper storage)",
+        "Ingredients: 100% pure coconut sap",
+        "Custom size and packaging available upon request"
+      ]
+    }
   }
 }

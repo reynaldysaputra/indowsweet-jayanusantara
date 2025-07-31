@@ -16,7 +16,7 @@ function AboutUs() {
           style={{ backgroundImage: "url('/assets/about-us-img.jpg')" }}
         />
         <div className='w-full h-full bg-primary -z-10 opacity-95 absolute' />
-        <div className='w-full h-full z-40 px-10 lg:px-20 flex flex-col justify-center space-y-8'>
+        <div className='w-full h-full z- px-10 lg:px-20 flex flex-col justify-center space-y-8'>
           <h2 className="text-4xl font-bold text-accent">{text("AboutUs.text1")}</h2>
           <div className='w-full flex flex-col lg:flex-row space-y-7  justify-between space-x-5 items-center lg:space-y-0'>
             <h2 className='text-2xl text-highlight'><CountUp start={1} end={20000} duration={5} separator="," className='font-bold' />+ M2 {text("AboutUs.text2")}</h2>
@@ -27,10 +27,10 @@ function AboutUs() {
       </main>
 
       {/* About */}
-      <div className='px-4 lg:px-16 my-10 relative w-full'>
+      <div className='px-4 lg:px-16 my-10 relative w-full bg-background'>
         <h2 className="font-extrabold text-2xl mb-5">{text("AboutUs.text5")}</h2>
         <p className='text-md lg:text-xl mb-5'>{text("AboutUs.text6")}</p>
-        <p className='text-lg lg:text-xl mb-5'>{text("AboutUs.text7")}</p>
+        <p className='text-md lg:text-xl mb-5'>{text("AboutUs.text7")}</p>
       </div>
 
       {/* Mission */}
@@ -59,13 +59,13 @@ function AboutUs() {
         </div>
         <div className='w-full lg:w-[50%] overflow-hidden h-9/12 relative'>
           <img src="/assets/about-section.jpg" alt="about-section" className='w-full bg-contain bg-center' />
-          <div className='w-[50%] h-22 bg-background absolute bottom-0 -top-10 z-50' />
+          <div className='w-[50%] h-22 bg-background absolute bottom-0' />
           <div className='w-[20%] h-10 bg-background absolute bottom-0 right-0' />
         </div>
       </div>
 
       {/* Gallery */}
-      <div className='px-4 lg:px-16 mt-20 relative w-full'>
+      <div className='px-4 lg:px-16 mt-20 relative w-full mb-16'>
         <h2 className="font-extrabold text-2xl mb-5">Gallery</h2>
         <GallerySlider />
       </div>

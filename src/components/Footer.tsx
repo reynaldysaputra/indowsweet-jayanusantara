@@ -11,7 +11,7 @@ function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className='mt-20 w-full bg-primary flex flex-col lg:flex-row space-x-10 justify-between px-14 py-20 space-y-8 lg:space-y-0'>
+    <footer className='w-full bg-primary flex flex-col lg:flex-row space-x-10 justify-between px-14 py-20 space-y-8 lg:space-y-0'>
       <img src={"/logo-light.png"} width={100} height={100} alt='IndoSweet' />
       <div className='w-full lg:w-6/12'>
         <p className='text-highlight font-bold'>{t("Footer.text1")}</p>
