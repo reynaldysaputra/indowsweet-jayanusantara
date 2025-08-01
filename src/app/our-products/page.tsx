@@ -18,6 +18,15 @@ function OurProductsPage() {
         <div className='w-full h-full z-40 px-10 lg:px-20 flex flex-col justify-center space-y-8'>
           <h2 className="text-4xl font-bold text-accent">{text("OurProducts.text1")}</h2>
           <p className='text-accent text-lg lg:text-xl'>Discover Gowla Hanau and Gowla Java — two natural sweetener lines made from 100% palm sap. Available in block, syrup, and granulated forms, each product delivers consistent quality for both industrial and retail needs.</p>
+          <a
+            href="https://drive.google.com/file/d/1pOHIZTRPj998A7lC36PLTOiQJOvWa9AO/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="border border-accent text-accent hover:bg-accent transition hover:text-white px-6 py-3 rounded-md font-bold cursor-pointer">
+              {text("AboutUs.text16")}
+            </button>
+          </a>
         </div>
       </main>
 
