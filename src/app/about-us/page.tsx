@@ -20,8 +20,8 @@ function AboutUs() {
           <h2 className="text-4xl font-bold text-accent">{text("AboutUs.text1")}</h2>
           <div className='w-full flex flex-col lg:flex-row space-y-7  justify-between space-x-5 items-center lg:space-y-0'>
             <h2 className='text-2xl text-highlight'><CountUp start={1} end={20000} duration={5} separator="," className='font-bold' />+ M2 {text("AboutUs.text2")}</h2>
-            <h2 className='text-2xl text-highlight'><CountUp start={1} end={60000} duration={5} separator="," className='font-bold' />+ KG {text("AboutUs.text3")}</h2>
-            <h2 className='text-2xl text-highlight'><CountUp start={1} end={720000} duration={5} separator="," className='font-bold' />+ KG {text("AboutUs.text4")}</h2>
+            <h2 className='text-2xl text-highlight'><CountUp start={1} end={15000} duration={5} separator="," className='font-bold' />+ KG {text("AboutUs.text3")}</h2>
+            <h2 className='text-2xl text-highlight'><CountUp start={1} end={180000} duration={5} separator="," className='font-bold' />+ KG {text("AboutUs.text4")}</h2>
           </div>
         </div>
       </main>
