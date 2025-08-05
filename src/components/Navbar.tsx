@@ -24,7 +24,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const threshold = window.innerWidth < 768 ? 250 : 300
-      const isDynamicOurProductPage = pathname.startsWith("/our-products/") && pathname !== "/our-products"
+      const isDynamicOurProductPage = pathname.startsWith("/our-products/") || pathname.startsWith("/contact-us") && pathname !== "/our-products"
       const scrolledEnough = window.scrollY > threshold
 
       setIsScrolled(scrolledEnough || isDynamicOurProductPage)

@@ -5,6 +5,7 @@ import { FirebaseInitializer } from "@/components/FirebaseInitializer"
 import LanguageSwitch from "@/components/LanguageSwitch"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import { Toaster } from "react-hot-toast"
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -29,6 +30,7 @@ export default async function Layout({
     <html>
       <body className={`${manrope.className} w-full h-full antialiased`}>
         <FirebaseInitializer />
+        <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
         {children}
         <Footer />

@@ -128,6 +128,13 @@
         "Ukuran dan kemasan kustom tersedia sesuai permintaan"
       ]
     }
+  },
+  "ContactUs": {
+    "text1": "Hubungi Kami",
+    "text2": "Mari Terhubung!",
+    "text3": "Di PT Indosweet Jaya Nusantara, kami percaya pada penciptaan rasa manis yang menghargai manusia dan planet. Mulai dari mengelola kebun kelapa sawit dan kelapa kami sendiri hingga bermitra dengan petani kecil, proses internal kami yang sepenuhnya memastikan ketertelusuran, kualitas tanpa kompromi, dan komitmen terhadap keberlanjutan di setiap langkah. Baik Anda tertarik untuk bersama-sama mengembangkan lini pemanis alami yang lebih sehat, mengeksplorasi solusi kemasan ramah lingkungan, atau mendukung program pemberdayaan masyarakat, kami ingin mengeksplorasi berbagai kemungkinan bersama.",
+    "text4": "Hubungi kami hari ini, dan mari gabungkan visi Anda dengan keahlian kami untuk menciptakan produk yang memuaskan konsumen, meningkatkan penghidupan, dan melindungi lingkungan kita.",
+    "text5": "Pesan berhasil terkirim",
+    "text6": "Gagal mengirim pesan. Silakan coba lagi."
   }
-
 }

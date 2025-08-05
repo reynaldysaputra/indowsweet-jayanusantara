@@ -128,5 +128,13 @@
         "Custom size and packaging available upon request"
       ]
     }
+  },
+  "ContactUs": {
+    "text1": "Contact Us",
+    "text2": "Let’s Connect!",
+    "text3": "At PT Indosweet Jaya Nusantara, we believe in crafting sweetness that respects both people and the planet. From nurturing our own palm and coconut groves to partnering with smallholder farmers, our fully in-house process ensures traceability, uncompromised quality, and a commitment to sustainability at every step. Whether you’re interested in co-developing healthier, natural sweetener lines, exploring eco-friendly packaging solutions, or supporting community empowerment programs, we’d love to explore the possibilities together.",
+    "text4": "Reach out today, and let’s combine your vision with our expertise to create products that delight consumers, uplift livelihoods, and protect our environment.",
+    "text5": "Message sent successfully",
+    "text6": "Failed to send message. Please try again."
   }
 }
