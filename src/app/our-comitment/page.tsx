@@ -16,10 +16,10 @@ function OurComitment() {
         />
         <div className='w-full h-full bg-primary -z-10 opacity-95 absolute' />
         <div className='w-full h-full z- px-10 lg:px-20 flex flex-col justify-center space-y-8 mt-4 lg:mt-0'>
-          <h2 className="text-2xl lg:text-4xl font-bold text-accent">{text("OurComitment.text1")}</h2>
-          <p className='text-md lg:text-lg text-highlight'>{text("OurComitment.text2")}</p>
-          <p className='text-md lg:text-lg text-highlight'>{text("OurComitment.text3")}</p>
-          <p className='text-md lg:text-lg text-highlight'>{text("OurComitment.text4")}</p>
+          <h2 className="sm:text-sm md:text-2xl lg:text-4xl font-bold text-accent">{text("OurComitment.text1")}</h2>
+          <p className='text-sm md:text-lg text-highlight'>{text("OurComitment.text2")}</p>
+          <p className='text-sm md:text-lg text-highlight'>{text("OurComitment.text3")}</p>
+          <p className='text-sm md:text-lg text-highlight'>{text("OurComitment.text4")}</p>
         </div>
       </main>
 
@@ -27,7 +27,7 @@ function OurComitment() {
       <div className='w-full my-20 flex flex-col-reverse lg:flex-row'>
         <div className='w-full lg:w-[50%] p-14 px-10 lg:px-14 bg-[#1a2a22]'>
           <div className='flex flex-col space-y-5'>
-            <h2 className='mb-10 text-white '>{text("OurComitment.text5")}</h2>
+            <h2 className='mb-10 text-gray-300'>{text("OurComitment.text5")}</h2>
             <div className='flex flex-row space-x-5'>
               <div className='px-4 h-14 bg-accent rounded-xl flex justify-center items-center'>
                 <h2 className='text-3xl font-bold text-primary'>S</h2>
