@@ -19,7 +19,7 @@ function OurProductsPage() {
           <h2 className="text-4xl font-bold text-accent">{text("OurProducts.text1")}</h2>
           <p className='text-accent text-lg lg:text-xl'>Discover Gowla Hanau and Gowla Java — two natural sweetener lines made from 100% palm sap. Available in block, syrup, and granulated forms, each product delivers consistent quality for both industrial and retail needs.</p>
           <a
-            href="https://drive.google.com/file/d/1pOHIZTRPj998A7lC36PLTOiQJOvWa9AO/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZgwHPb2QSWWLeRem_dBzGVSHmB2fJl3W/view"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -76,7 +76,7 @@ function OurComitment() {
           </div>
         </div>
         <div className='w-full lg:w-[50%] overflow-hidden h-full relative'>
-          <img src="/assets/our-comitment.jpg" alt="comitment-section" className='w-full bg-contain bg-center' />
+          <img src="/assets/palm-tree-arenga.jpg" alt="comitment-section" className='w-full bg-contain bg-center' />
           <div className='w-[20%] lg:w-[50%] h-22 bg-background absolute top-0' />
           <div className='w-[50%] lg:w-[20%] h-10 bg-background absolute bottom-0 right-0' />
         </div>
