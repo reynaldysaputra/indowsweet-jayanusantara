@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div>
           <h2 className='text-highlight mb-1'><span className='font-bold'>Email:</span> info@indosweetjn.com</h2>
-          <h2 className='text-highlight'><span className='font-bold'>Whatsapp:</span> +62 821-4784-0749</h2>
+          <h2 className='text-highlight'><span className='font-bold'>Whatsapp:</span> +6288-2000-200-578</h2>
         </div>
       </div>
     </footer>

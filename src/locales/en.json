@@ -1,5 +1,12 @@
 {
   "HomePage": {
+    "metaTitle": "Premium Coconut Sugar | Indosweet",
+    "metaDescription": "Discover natural, export-quality coconut sugar from Indosweet. Fresh, healthy, and perfect for your favorite recipes. Order today!",
+    "metaKeywords": "coconut sugar, organic sugar, IndoSweetJn, Indonesian coconut sugar, premium sweetener",
+    "metaRobots": "index, follow",
+    "metaAuthor": "PT Indosweet Jaya Nusantara",
+    "metaPublisher": "PT Indosweet Jaya Nusantara",
+    "metaLang": "en",
     "text1": "PT. INDOSWEET JAYA NUSANTARA",
     "text2": "We Complete The Sweetness Of Life!",
     "text3": "View Products",
@@ -27,6 +34,13 @@
     "text1": "PT Indosweet Jaya Nusantara is a proudly Indonesian company focused on producing premium palm sugar and coconut sugar. Through our fully in-house production system, we ensure every batch meets consistent quality, safety, and flavor crafted with care and backed by strict standards by using 100% pure palm nectar."
   },
   "AboutUs": {
+    "metaTitle": "About Us | Premium Coconut Sugar from Indonesia",
+    "metaDescription": "Get to know PT Indosweet Jaya Nusantara — a sustainable coconut sugar producer committed to quality, tradition, and global excellence.",
+    "metaKeywords": "about IndoSweetJn, company profile, coconut sugar producer, sustainable sugar Indonesia",
+    "metaRobots": "index, follow",
+    "metaAuthor": "PT Indosweet Jaya Nusantara",
+    "metaPublisher": "PT Indosweet Jaya Nusantara",
+    "metaLang": "en",
     "text1": "About Us",
     "text2": "Joint Plantation Land",
     "text3": "Production Capacity per Month",
@@ -52,6 +66,12 @@
     "text5": "Contact Us"
   },
   "OurProducts": {
+    "metaTitle": "Our Products | Premium Coconut Sugar & Blends",
+    "metaDescription": "Discover our range of premium coconut sugar and blended sweeteners — organic, natural, and sustainably produced for global markets.",
+    "metaKeywords": "coconut sugar, sugar products, IndoSweet, organic, healthy sugar",
+    "metaRobots": "index, follow",
+    "metaAuthor": "IndoSweet Jaya Nusantara",
+    "metaPublisher": "IndoSweet Jaya Nusantara",
     "text1": "Our Products",
     "text2": "We Offer",
     "text3": "Artisanal, rustic, and powerfully flavorful — Gowla Hanau is arenga sugar in its boldest form. Handcrafted into dense, smoky blocks of earthy sweetness, perfect for grating, melting, or shaving into anything from curries to confections. Bring back the soul of ancient kitchens.",
@@ -130,6 +150,12 @@
     }
   },
   "ContactUs": {
+    "metaTitle": "Contact Us | Let's Talk About Coconut Sugar",
+    "metaDescription": "Get in touch with us for inquiries, partnerships, or product details. We're here to help you with our premium coconut sugar.",
+    "metaKeywords": "contact IndoSweetJn, coconut sugar inquiry, business contact, IndoSweetJn support, coconut sugar supplier, coconut sugar manufacturer Indonesia",
+    "metaRobots": "index, follow",
+    "metaAuthor": "IndoSweet Jaya Nusantara",
+    "metaPublisher": "IndoSweet Jaya Nusantara",
     "text1": "Contact Us",
     "text2": "Let’s Connect!",
     "text3": "At PT Indosweet Jaya Nusantara, we believe in crafting sweetness that respects both people and the planet. From nurturing our own palm and coconut groves to partnering with smallholder farmers, our fully in-house process ensures traceability, uncompromised quality, and a commitment to sustainability at every step. Whether you’re interested in co-developing healthier, natural sweetener lines, exploring eco-friendly packaging solutions, or supporting community empowerment programs, we’d love to explore the possibilities together.",
@@ -138,6 +164,12 @@
     "text6": "Failed to send message. Please try again."
   },
   "OurComitment": {
+    "metaTitle": "Our Commitment | Sustainability & Quality First",
+    "metaDescription": "We are committed to sustainable farming, fair trade, and delivering high-quality coconut sugar to the world.",
+    "metaKeywords": "commitment, coconut sugar, sustainability, community, organic, quality assurance",
+    "metaRobots": "index, follow",
+    "metaAuthor": "Indosweet Jaya Nusantara",
+    "metaPublisher": "Indosweet Jaya Nusantara",
     "text1": "CORE VALUE & PRINCIPLES",
     "text2": "At the heart of everything we do lies a deep commitment to natural goodness, ethical sourcing, and empowering communities. We believe true sweetness begins with integrity—from how we grow and process, to how we share with the world.",
     "text3": "Our guiding values are captured in the word SWEET—a promise of safety, wellness, ethics, empowerment, and taste with purpose. Each product we craft is a reflection of these principles, rooted in care and conscious choices.",

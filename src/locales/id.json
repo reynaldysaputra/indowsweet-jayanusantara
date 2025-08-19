@@ -1,5 +1,12 @@
 {
   "HomePage": {
+    "metaTitle": "Gula Kelapa Premium | Indosweet",
+    "metaDescription": "Temukan gula kelapa alami berkualitas ekspor dari Indosweet—segar, sehat, dan sempurna untuk resep favoritmu. Pesan sekarang!",
+    "metaKeywords": "gula kelapa, gula organik, IndoSweetJn, gula kelapa Indonesia, pemanis premium",
+    "metaRobots": "index, follow",
+    "metaAuthor": "PT Indosweet Jaya Nusantara",
+    "metaPublisher": "PT Indosweet Jaya Nusantara",
+    "metaLang": "id",
     "text1": "PT. INDOSWEET JAYA NUSANTARA",
     "text2": "Melengkapi Manisnya Hidup!",
     "text3": "Lihat Produk",
@@ -27,6 +34,13 @@
     "text1": "PT Indosweet Jaya Nusantara adalah perusahaan asli Indonesia yang berfokus pada produksi gula aren dan gula kelapa premium. Dengan sistem produksi yang sepenuhnya kami kelola sendiri, kami menjamin setiap batch hadir dengan kualitas, keamanan, dan cita rasa yang konsisten—diproses sepenuh hati dari 100% nira palma murni pilihan."
   },
   "AboutUs": {
+    "metaTitle": "Tentang Kami | Produsen Gula Kelapa Premium Indonesia",
+    "metaDescription": "Kenali PT Indosweet Jaya Nusantara — produsen gula kelapa berkelanjutan dengan komitmen pada kualitas, tradisi, dan keunggulan global.",
+    "metaKeywords": "tentang IndoSweetJn, profil perusahaan, produsen gula kelapa, gula berkelanjutan Indonesia",
+    "metaRobots": "index, follow",
+    "metaAuthor": "PT Indosweet Jaya Nusantara",
+    "metaPublisher": "PT Indosweet Jaya Nusantara",
+    "metaLang": "id",
     "text1": "Tentang Kami",
     "text2": "Lahan Perkebunan Bersama",
     "text3": "Kapasitas Produksi per Bulan",
@@ -52,6 +66,12 @@
     "text5": "Hubungi Kami"
   },
   "OurProducts": {
+    "metaTitle": "Produk Kami | Gula Kelapa & Campuran Premium",
+    "metaDescription": "Temukan ragam produk gula kelapa premium dan pemanis campuran kami — organik, alami, dan diproduksi secara berkelanjutan untuk pasar global.",
+    "metaKeywords": "komitmen, kualitas, keberlanjutan, produksi bertanggung jawab, IndoSweet",
+    "metaRobots": "index, follow",
+    "metaAuthor": "IndoSweet Jaya Nusantara",
+    "metaPublisher": "IndoSweet Jaya Nusantara",
     "text1": "Produk Kami",
     "text2": "Kami Menawarkan",
     "text3": "Artisanal, sederhana, dan kaya rasa — Gowla Hanau adalah gula aren dalam bentuk yang paling berani. Dibuat tangan menjadi balok-balok padat berasap dengan rasa manis alami, sempurna untuk diparut, dilelehkan, atau diserut menjadi apa saja, mulai dari kari hingga manisan. Bangkitkan kembali jiwa dapur kuno.",
@@ -130,6 +150,12 @@
     }
   },
   "ContactUs": {
+    "metaTitle": "Hubungi Kami | Siap Membantu Kebutuhan Gula Kelapa Anda",
+    "metaDescription": "Hubungi kami untuk pertanyaan, kerja sama, atau informasi produk. Kami siap membantu Anda dengan gula kelapa premium kami.",
+    "metaKeywords": "hubungi IndoSweetJn, pertanyaan gula kelapa, kontak bisnis, dukungan IndoSweetJn, pemasok gula kelapa, produsen gula kelapa Indonesia",
+    "metaRobots": "index, follow",
+    "metaAuthor": "IndoSweet Jaya Nusantara",
+    "metaPublisher": "IndoSweet Jaya Nusantara",
     "text1": "Hubungi Kami",
     "text2": "Mari Terhubung!",
     "text3": "Di PT Indosweet Jaya Nusantara, kami percaya pada penciptaan rasa manis yang menghargai manusia dan planet. Mulai dari mengelola kebun kelapa sawit dan kelapa kami sendiri hingga bermitra dengan petani kecil, proses internal kami yang sepenuhnya memastikan ketertelusuran, kualitas tanpa kompromi, dan komitmen terhadap keberlanjutan di setiap langkah. Baik Anda tertarik untuk bersama-sama mengembangkan lini pemanis alami yang lebih sehat, mengeksplorasi solusi kemasan ramah lingkungan, atau mendukung program pemberdayaan masyarakat, kami ingin mengeksplorasi berbagai kemungkinan bersama.",
@@ -138,21 +164,27 @@
     "text6": "Gagal mengirim pesan. Silakan coba lagi."
   },
   "OurComitment": {
-  "text1": "NILAI & PRINSIP UTAMA",
-  "text2": "Di inti dari semua yang kami lakukan terdapat komitmen mendalam terhadap kebaikan alami, sumber daya yang etis, dan pemberdayaan komunitas. Kami percaya bahwa rasa manis yang sejati berawal dari integritas—dari cara kami menanam dan memproses, hingga cara kami membagikannya kepada dunia.",
-  "text3": "Nilai-nilai yang membimbing kami tercermin dalam kata SWEET—sebuah janji akan keamanan, kesehatan, etika, pemberdayaan, dan rasa yang bermakna. Setiap produk yang kami ciptakan adalah cerminan dari prinsip-prinsip ini, yang berakar pada kepedulian dan pilihan yang sadar.",
-  "text4": "Ini lebih dari sekadar sistem nilai—ini adalah identitas kami. Dari petani yang kami ajak bermitra hingga ke meja makan Anda, kami berdedikasi untuk menumbuhkan kepercayaan, kesehatan, dan keberlanjutan dalam setiap butir rasa manis.",
-  "text5": "Di jantung bisnis kami terdapat komitmen untuk menghadirkan rasa manis alami dengan integritas, kesehatan, dan kepedulian terhadap komunitas. Nilai-nilai utama kami tertuang dalam kata SWEET, sebuah refleksi dari produk dan prinsip kami:",
-  "text6": "Aman & Berkelanjutan",
-  "text7": "Kami memastikan keamanan pangan dan menerapkan praktik ramah lingkungan yang berkelanjutan.",
-  "text8": "Berorientasi pada Kesehatan",
-  "text9": "Produk kami dibuat untuk mendukung gaya hidup sehat dan seimbang.",
-  "text10": "Integritas Etis",
-  "text11": "Kami bertindak dengan jujur, transparan, dan menghormati semua pemangku kepentingan.",
-  "text12": "Pemberdayaan Komunitas",
-  "text13": "Kami membangun kemitraan yang adil untuk meningkatkan kesejahteraan petani dan pekerja lokal.",
-  "text14": "Rasa dengan Tujuan",
-  "text15": "Kami menghadirkan rasa manis alami yang otentik dengan makna dan kepedulian."
-}
+    "metaTitle": "Komitmen Kami | Prioritaskan Kualitas & Keberlanjutan",
+    "metaDescription": "Kami berkomitmen pada pertanian berkelanjutan, perdagangan yang adil, dan penyediaan gula kelapa berkualitas tinggi ke seluruh dunia.",
+    "metaKeywords": "komitmen, gula kelapa, keberlanjutan, komunitas, organik, jaminan kualitas",
+    "metaRobots": "index, follow",
+    "metaAuthor": "Indosweet Jaya Nusantara",
+    "metaPublisher": "Indosweet Jaya Nusantara",
+    "text1": "NILAI & PRINSIP UTAMA",
+    "text2": "Di inti dari semua yang kami lakukan terdapat komitmen mendalam terhadap kebaikan alami, sumber daya yang etis, dan pemberdayaan komunitas. Kami percaya bahwa rasa manis yang sejati berawal dari integritas—dari cara kami menanam dan memproses, hingga cara kami membagikannya kepada dunia.",
+    "text3": "Nilai-nilai yang membimbing kami tercermin dalam kata SWEET—sebuah janji akan keamanan, kesehatan, etika, pemberdayaan, dan rasa yang bermakna. Setiap produk yang kami ciptakan adalah cerminan dari prinsip-prinsip ini, yang berakar pada kepedulian dan pilihan yang sadar.",
+    "text4": "Ini lebih dari sekadar sistem nilai—ini adalah identitas kami. Dari petani yang kami ajak bermitra hingga ke meja makan Anda, kami berdedikasi untuk menumbuhkan kepercayaan, kesehatan, dan keberlanjutan dalam setiap butir rasa manis.",
+    "text5": "Di jantung bisnis kami terdapat komitmen untuk menghadirkan rasa manis alami dengan integritas, kesehatan, dan kepedulian terhadap komunitas. Nilai-nilai utama kami tertuang dalam kata SWEET, sebuah refleksi dari produk dan prinsip kami:",
+    "text6": "Aman & Berkelanjutan",
+    "text7": "Kami memastikan keamanan pangan dan menerapkan praktik ramah lingkungan yang berkelanjutan.",
+    "text8": "Berorientasi pada Kesehatan",
+    "text9": "Produk kami dibuat untuk mendukung gaya hidup sehat dan seimbang.",
+    "text10": "Integritas Etis",
+    "text11": "Kami bertindak dengan jujur, transparan, dan menghormati semua pemangku kepentingan.",
+    "text12": "Pemberdayaan Komunitas",
+    "text13": "Kami membangun kemitraan yang adil untuk meningkatkan kesejahteraan petani dan pekerja lokal.",
+    "text14": "Rasa dengan Tujuan",
+    "text15": "Kami menghadirkan rasa manis alami yang otentik dengan makna dan kepedulian."
+  }
 
 }
