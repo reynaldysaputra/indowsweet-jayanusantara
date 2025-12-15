@@ -39,6 +39,14 @@ export default function HomeContent() {
           </div>
 
           <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
+            <div>
+              <h2 className="font-extrabold text-xs text-green-600">New Product Launched!</h2>
+              <h2 className="font-extrabold text-xl">{t("HomePage.text23")}</h2>
+              <img src={"/assets/products/arenergyy.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
+            </div>
+          </div>
+
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
               <h2 className="font-extrabold text-xl">{t("HomePage.text8")}</h2>
               <img src={"/assets/products/aren_semut.png"} alt="Aren Semut" className="w-44 h-44 mx-auto" />
@@ -75,11 +83,11 @@ export default function HomeContent() {
         </div>
 
 
-        <div className="w-full flex justify-center">
+        {/* <div className="w-full flex justify-center">
           <button className="w-fit mx-auto mt-8 p-3 bg-transparent border border-accent text-accent transition hover:bg-accent hover:text-background cursor-pointer rounded md:mt-7">
             {t("HomePage.text7")}
           </button>
-        </div>
+        </div> */}
 
         {/* Targets */}
         <div className="w-full mt-32">
