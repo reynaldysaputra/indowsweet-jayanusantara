@@ -12,9 +12,10 @@ function ContactUsContent() {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setIsSending(true)
 
     if (!formRef.current) return
+
+    setIsSending(true)
 
     emailjs.sendForm(
       "service_v2y1b1e",
