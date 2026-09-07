@@ -21,18 +21,18 @@ export async function generateMetadata(
     openGraph: {
       title: dictionary.HomePage.metaTitle,
       description: dictionary.HomePage.metaDescription,
-      url: "https://indosweetjn.com/",
+      url: "https://indosweetjaya.com/",
       siteName: "IndoSweetJn",
       locale: lang === "id" ? "id_ID" : "en_US",
       type: "website",
     },
     alternates: {
-      canonical: "https://indosweetjn.com/",
+      canonical: "https://indosweetjaya.com/",
     },
     icons: {
       icon: "/favicon/favicon2.ico"
     },
-    metadataBase: new URL("https://indosweetjn.com/"),
+    metadataBase: new URL("https://indosweetjaya.com/"),
     // Tambahan opsional (kalau ingin menggunakan 'lang' di <html lang=""> tag secara otomatis)
     other: {
       lang: dictionary.HomePage.metaLang

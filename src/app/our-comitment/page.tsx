@@ -20,18 +20,18 @@ export async function generateMetadata(
     openGraph: {
       title: dictionary.OurComitment.metaTitle,
       description: dictionary.OurComitment.metaDescription,
-      url: "https://indosweetjn.com/our-comitment",
+      url: "https://indosweetjaya.com/our-comitment",
       siteName: "IndoSweetJn",
       locale: lang === "id" ? "id_ID" : "en_US",
       type: "website",
     },
     alternates: {
-      canonical: "https://indosweetjn.com/our-comitment",
+      canonical: "https://indosweetjaya.com/our-comitment",
     },
     icons: {
       icon: "/favicon/favicon2.ico",
     },
-    metadataBase: new URL("https://indosweetjn.com"),
+    metadataBase: new URL("https://indosweetjaya.com"),
     other: {
       lang: lang,
     },
