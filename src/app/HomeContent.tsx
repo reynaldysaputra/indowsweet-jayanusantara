@@ -30,6 +30,16 @@ export default function HomeContent() {
         <h3 className="text-3xl font-extrabold mb-6 lg:mb-10">{t("HomePage.text20")}</h3>
 
         {/* Products */}
+        <div className="flex flex-wrap justify-center items-stretch gap-4 mb-4">
+          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
+            <div>
+              <h2 className="font-extrabold text-xs text-green-600">New Product Launched!</h2>
+              <h2 className="font-extrabold text-xl">{t("HomePage.text23")}</h2>
+              <img src={"/assets/products/arenergyy.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-wrap justify-center items-stretch gap-4">
           <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
@@ -38,13 +48,6 @@ export default function HomeContent() {
             </div>
           </div>
 
-          <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
-            <div>
-              <h2 className="font-extrabold text-xs text-green-600">New Product Launched!</h2>
-              <h2 className="font-extrabold text-xl">{t("HomePage.text23")}</h2>
-              <img src={"/assets/products/arenergyy.png"} alt="Gula Aren Cetak" className="w-44 h-44 mx-auto" />
-            </div>
-          </div>
 
           <div className="w-full lg:w-[32%] p-10 shadow flex flex-col justify-between h-full">
             <div className="space-y-5">
